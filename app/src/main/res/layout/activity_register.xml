@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#5CD0DF">
+
+
+    <ImageView android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="98dp"
+        android:background="#5CD0DF"
+        app:srcCompat="@drawable/nss_symbol" />
+
+
+    <TextView
+        android:id="@+id/textview2"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="#5CD0DF"
+        android:gravity="bottom|center"
+        android:text="SIGN-UP"
+        android:textColor="?android:attr/statusBarColor"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        tools:ignore="DuplicateIds" />
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:gravity="bottom"
+        android:text="Username"
+        android:textColor="@color/white"
+        android:fontFamily="sans-serif-medium"
+        android:textSize="35dp" />
+
+
+    <EditText
+        android:id="@+id/pass"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:gravity="bottom"
+        android:textColor="@color/white"
+        android:fontFamily="sans-serif-medium"
+        android:text="Password"
+        android:textSize="35dp" />
+
+    <LinearLayout android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="?android:attr/statusBarColor"
+            android:gravity="center"
+            android:text="Register"
+            android:textColor="@color/white"
+            android:textSize="30dp" />
+    </LinearLayout>
+
+</LinearLayout>
